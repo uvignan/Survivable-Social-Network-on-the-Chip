@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    include includes/head.jade
+    script(src='/js/jquery.cookie.js')
+    script(src='/js/map.js')
+    script(src='/js/leaflet/leaflet.js')
+    link(rel='stylesheet', href='/js/leaflet/leaflet.css')
+    link(rel='stylesheet', href='/css/map.css')
+    link(rel='stylesheet', href='/css/util.css')
+    title SSNoC - Map
+  body
+    include includes/navbar.jade
+
+    div.container
+      div.row.row-fluid.text-center.col-sm-6.col-sm-offset-3
+        br
+        p#changeMode.btn.alert.alert-warning.alert-dismissible.width-height-full User
+        br
+        div.well#map
+

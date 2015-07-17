@@ -1,0 +1,57 @@
+doctype html
+html
+    include includes/head.jade
+    script(src='/js/jquery.cookie.js')
+    script(src='/js/measureMemory.js')
+    title SSNoC - Memory Measure
+    body
+        include includes/navbarMo.jade
+        div.container
+            br
+            h3.text-center
+                | Hello!! Monitor
+                br
+                | Welcome to Measure Memory
+            br
+        div.container
+            div.row.row-fluid.text-center.col-sm-6.col-sm-offset-3
+                .btn-group.btn-group-justified
+                    .btn-group
+                        button.btn.btn-success(id="start",action='/start',type="button")
+                            Strong Start
+                    .btn-group
+                        button.btn.btn-warning(id="stop",action='/stop',type="button")
+                            Strong Stop
+                    .btn-group
+                        button.btn.btn-danger(id="delete",action='/delete',type="button")
+                            Strong Delete
+            br
+            div.row.row-fluid.text-center.col-sm-2.col-sm-offset-5
+                    .btn-group.btn-group-justified
+                        .btn-group
+                            button.btn.btn-primary(id="view",action='/view',type="button")
+                                Strong View
+            br
+            div.row.row-fluid.text-center.col-sm-6.col-sm-offset-3
+                div.alert.alert-info#alert
+            br
+        div.container.container-fluid
+            div.well.well-lg.collapse#table
+                div.panel.panel-warning
+                    div.panel-heading.text-center.text-primary
+                        Strong Memory Statistics
+                    table.table.table-striped
+                        thead
+                            tr
+                                th Time
+                                th Used Volatile
+                                th Remaining Volatile
+                                th Used Persistent
+                                th Remaining Persistent
+                        tbody
+        br
+        br
+        div.row.text-center.col-sm-6.col-sm-offset-3
+            p Need to go back to directory?
+                a(href='/people')
+                    Strong  Return

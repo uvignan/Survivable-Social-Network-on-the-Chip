@@ -1,0 +1,48 @@
+doctype html
+html
+    include includes/head.jade
+    script(src='/js/jquery.cookie.js')
+    script(src='/js/SSNanalysis.js')
+    title SSNoC - SSN Analysis
+    body
+        include includes/navbarCoor.jade
+        div.container
+            br
+            h3.text-center
+                | Hello!! Coordinator
+                br
+                | Welcome to Survivable Social Network Analysis
+            br
+        div.container
+            div.row.row-fluid.text-center.col-sm-6.col-sm-offset-3
+                div.input-group
+                    span.input-group-addon
+                        span.glyphicon.glyphicon-star
+                    input.startTime.form-control(id="startTime" type="text" class='form-control' name='start_Time' placeholder="Please enter startTime:eg..yyyy-mm-dd hh:mm")
+                br
+                div.input-group
+                    span.input-group-addon
+                        span.glyphicon.glyphicon-star
+                    input.endTime.form-control(id="endTime" type="text" class='form-control' name='end_Time' placeholder="Please enter endTime:eg..yyyy-mm-dd hh:mm")
+                br
+                button.btn.btn-success(id="ssn",action='/ssn', type="button")
+                    strong SSN_analysis
+                br
+                br
+            div.row.row-fluid.text-center.col-sm-6.col-sm-offset-3
+                div.alert.alert-info#alert
+        br
+        div.container.container-fluid
+            div.well.collapse.col-sm-2.col-sm-offset-5#table
+                table.table.table-hover.table-bordered.text-center
+                    thead
+                        tr
+                            th.text-center
+                                font(size = '6') Clusters
+                    tbody
+        br
+        br
+        div.row.text-center.col-sm-6.col-sm-offset-3
+            p Need to go back to directory?
+                a(href='/people')
+                    Strong  Return

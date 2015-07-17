@@ -1,0 +1,48 @@
+doctype html
+html
+  head
+    <meta charset="utf-8">
+    <!-- Set the viewport so this responsive site displays correctly on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    script(src='/js/jquery-1.9.1.min.js')
+    script(src='/js/jquery.watermarkinput.js')
+    link(rel='stylesheet', href='/css/opensans.css')
+    link(rel='stylesheet', href='/css/style.css')
+    link(rel='stylesheet', href='/css/bootstrap.min.css')
+    script(src='/js/bootstrap.min.js')
+    script(src='/js/login_signup.js')
+    script(src='/js/join.js')
+    title SSNoC - Login
+  body
+    div.container-fluid
+      h3.text-center
+        span.fa.fa-sign-in Hello there!! Please login
+      br
+      if message.length > 0
+        div.alert.alert-danger#passport_alert #{message}
+      div.alert.alert-danger#alert
+      br
+      div.row.text-center.col-sm-6.col-sm-offset-3
+        div.join
+
+          div.well
+              form.form-login(action='/login', method='post')
+                div.input-group
+                    span.input-group-addon
+                        span.glyphicon.glyphicon-user
+                    input.name.form-control(id="userName" type="text" class='form-control' name='name' placeholder="Please enter your user name")
+                br
+                div.input-group
+                    span.input-group-addon
+                        span.glyphicon.glyphicon-lock
+                    input.password.form-control(id="passwd" type="password" class='form-control' name='password' placeholder="Please enter your password")
+                br
+
+                button(type="submit", class='btn btn-info' id="signupBtn")
+                  Strong Login
+
+        br
+        div.row.text-center.col-sm-6.col-sm-offset-3
+            p Need an account?
+                a(href='/signup')
+                    Strong  Signup here

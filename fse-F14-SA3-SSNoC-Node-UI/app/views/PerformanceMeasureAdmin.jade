@@ -1,0 +1,43 @@
+doctype html
+html
+    include includes/head.jade
+    script(src='/js/jquery.cookie.js')
+    script(src='/js/measurePerformance.js')
+    title SSNoC - PerformanceMeasure
+    body
+        include includes/navbarAdmin.jade
+        div.container
+            br
+            h3.text-center
+                | Hello!! Monitor
+                br
+                | Welcome to Measure Performance
+            br
+        div.container
+            div.row.row-fluid.text-center.col-sm-6.col-sm-offset-3
+                div.input-group
+                    span.input-group-addon
+                        span.glyphicon.glyphicon-tasks
+                    input.message.form-control(id="duration" type="text" class='form-control' name='duration' placeholder="Please enter a duration time: in seconds")
+                br
+                .btn-group.btn-group-justified
+                    .btn-group
+                        button.btn.btn-success(id="setupButton",type="button")
+                            Strong Measure!
+                    .btn-group
+                        button.btn.btn-danger(id="teardownButton",type="button")
+                            Strong Stop!
+                    .btn-group
+                        button.btn.btn-info(id="viewButton",type="button")
+                            Strong View!
+            br
+            div.row.row-fluid.text-center.col-sm-6.col-sm-offset-3
+                div.alert.alert-info#alert
+            br
+            div.join1
+            br
+            br
+        div.row.text-center.col-sm-6.col-sm-offset-3
+            p Need to go back to directory?
+                a(href='/people')
+                    Strong  Return

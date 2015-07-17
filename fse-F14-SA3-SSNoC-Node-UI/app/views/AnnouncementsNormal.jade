@@ -1,0 +1,32 @@
+doctype html
+html
+   head
+      include includes/head
+      script(src='/js/jquery.cookie.js')
+      script(src='/js/announcements.js')
+      title SSNoC - Public Wall
+   body
+      include includes/navbar.jade
+      div.container
+         br
+         h3.text-center
+            | Welcome to Announcements
+         br
+      div.container
+         div.well#announcementsWall
+      //div.container
+      //   div.well#postAnnouncement
+      //      div.message
+      //         form(id="announcementform",action='/postAnnouncement',method='post')
+      //            div.form-group
+      //               label.control-label Announcement
+      //               input.message.form-control(id="announcementMessage" type="text" class='form-control' name='announcement')
+      //            div.form-group
+      //               button.btn.btn-primary(type="submit",id="postAnnouncementButton")
+      //                     Strong Announce
+      br
+      br
+      div.row.text-center.col-sm-6.col-sm-offset-3
+         p Need to go back to directory?
+            a(href='/people')
+               Strong  Return

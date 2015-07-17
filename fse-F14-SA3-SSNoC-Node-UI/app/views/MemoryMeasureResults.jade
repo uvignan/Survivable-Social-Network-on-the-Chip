@@ -1,0 +1,74 @@
+doctype html
+html
+    include includes/head.jade
+    script(src='/js/jquery.cookie.js')
+    script(src='/js/people.js')
+    title SSNoC - PerformanceMeasure
+    body
+        include includes/navbar.jade
+        div.container
+            br
+            br
+            br
+            br
+            h3.text-center
+                p
+                    | Hello, Monitor, welcome to
+                    br
+                    font(size = '15')
+                        span(style='color:green') Measure Memory
+
+
+            br
+            div.row.text-center.col-sm-6.col-sm-offset-3
+                div.join1
+                    form.form-login(action='/Measure_Memory_Test', method='post')
+                        div.input-group
+                            span.input-group-addon
+                                span.glyphicon.glyphicon-tasks
+                            input.name.form-control(id="userName" type="text" class='form-control' name='time' placeholder="Please enter a time window specified in hours")
+                        br
+                        button(type="submit", class='btn btn-info btn-lg' id="signupBtn") Measure Now!
+                br
+                p Need to go back?
+                    <a href='/people'>Return</a>
+            br
+            br
+
+            div.container.text-center
+        br
+
+        h3 Welcome to Survivable Social Network on a Chip!!
+
+        br
+
+        font(size='5') Status and Explanation
+        div.well
+            table.table.table-hover.table-bordered
+                thead
+                    tr
+                        th Timestamp
+                        th Used Volatile Memory
+                        th Remaining Volatile Memory
+                        th Used Non-volatile Memory
+                        th Remaining Non-volatile Memory
+                    tbody
+                    tr
+                        td(style= 'text-align : left;') OK
+                        td(style= 'text-align : left;') I am OK, I do not need help
+                        td(style= 'text-align : left;') Green
+                        td(style= 'text-align : left;') Green
+                        td(style= 'text-align : left;') Green
+                    tr
+                        td(style= 'text-align : left;') Help
+                        td(style= 'text-align : left;') I need help, but this is not a life threatening emergency
+                        td(style= 'text-align : left;') Yellow
+                        td(style= 'text-align : left;') I need help, but this is not a life threatening emergency
+                        td(style= 'text-align : left;') Yellow
+                    tr
+                        td(style= 'text-align : left;') Emergency
+                        td(style= 'text-align : left;') I need help now, as this is a life threatening emergency!
+                        td(style= 'text-align : left;') Red
+                        td(style= 'text-align : left;') I need help, but this is not a life threatening emergency
+                        td(style= 'text-align : left;') Yellow
+        br

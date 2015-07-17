@@ -1,0 +1,59 @@
+nav.navbar.navbar-default.navbar-fixed-top(role="navigation")#top-navbar
+  div.navbar-header
+    button(class="btn btn-success navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse")
+      span.icon-bar
+      span.icon-bar
+      span.icon-bar
+    p.navbar-brand
+      span #{title}
+      button(type='submit').btn.btn-default.search-symbol#openSearch
+        span.glyphicon.glyphicon-search
+
+  div.navbar-collapse.collapse
+    ul.nav.nav-pills#nav_list
+      li
+        a(href="/people")
+            span.glyphicon.glyphicon-user
+            strong  People
+      li
+        a(href="/messageWall")
+            span.glyphicon.glyphicon-globe
+            Strong  Public Wall
+      li
+        a(class="btn dropdown-toggle" data-toggle="dropdown" type="button")
+            span.glyphicon.glyphicon-list
+            font(size ="4")
+                Strong &nbsp;Analysis
+           ul.dropdown-menu.list-inline
+              li
+                a(href="/SSN_Analysis")
+                      span.glyphicon.glyphicon-tasks
+                      strong  SSN Analysis
+              li
+                a(href="/measurePerformance")
+                      span.glyphicon.glyphicon-tasks
+                      strong  Measure Performance
+              li
+                a(href="/measureMemory")
+                      span.glyphicon.glyphicon-tasks
+                      strong  Measure Memory
+      li
+        a(href="/announcements")
+            span.glyphicon.glyphicon-flag
+            strong  Announcements
+      li
+        a(href="/search")
+            span.glyphicon.glyphicon-search
+            strong  Search
+      li
+        a(href="/map")
+            span.glyphicon.glyphicon-search
+            strong  Map
+      li
+        a(href="/logout")
+            span.glyphicon.glyphicon-off
+            strong  Logout
+      li
+        a(href="/normalpeople")
+            span.glyphicon.glyphicon-off
+            strong  Get Bored?

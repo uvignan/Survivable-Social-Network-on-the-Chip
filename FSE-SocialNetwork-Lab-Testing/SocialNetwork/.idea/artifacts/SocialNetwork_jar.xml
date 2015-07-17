@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SocialNetwork:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SocialNetwork_jar</output-path>
+    <root id="archive" name="SocialNetwork.jar">
+      <element id="module-output" name="SocialNetwork" />
+      <element id="module-test-output" name="SocialNetwork" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src" />
+    </root>
+  </artifact>
+</component>

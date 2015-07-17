@@ -1,0 +1,25 @@
+doctype html
+html
+  include includes/head.jade
+  script(src='/js/jquery.cookie.js')
+  script(src='/js/people.js')
+  title SSNoC - People
+  body
+    include includes/navbarMo.jade
+    div.container
+      br
+      br
+      div.well#myself.search_item
+        div.row.user-row
+
+           div.col-xs-5.col-sm-5.col-md-4.col-lg-4
+            img(src="/img/online_user.png" height=60)
+            br
+            font(color="#336699")
+              strong #{user_name}
+
+           div.col-xs-6.col-sm-6.col-md-7.col-lg-7
+
+      div.well#participants_online
+      div.well#participants_offline
+

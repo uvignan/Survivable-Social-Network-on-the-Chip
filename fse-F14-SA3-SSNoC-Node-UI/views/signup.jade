@@ -1,0 +1,53 @@
+doctype html
+html
+  head
+    <meta charset="utf-8">
+    <!-- Set the viewport so this responsive site displays correctly on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    script(src='/js/jquery-1.9.1.min.js')
+    script(src='/js/jquery.watermarkinput.js')
+    link(rel='stylesheet', href='/css/opensans.css')
+    link(rel='stylesheet', href='/css/style.css')
+    link(rel='stylesheet', href='/css/bootstrap.min.css')
+    script(src='/js/bootstrap.min.js')
+    script(src='/js/login_signup.js')
+    script(src='/js/signup.js')
+    title SSNoC - User Signup
+  body
+    div.container
+      h3.text-center
+        span.fa.fa-sign-in New User Signup
+      br
+      if message.length > 0
+        div.alert.alert-danger#passport_alert #{message}
+      div.alert.alert-danger#alert
+      br
+      div.row.text-center.col-sm-6.col-sm-offset-3
+        div.signup
+          form(action='/signup', method='post')
+
+            div.well
+              form(action='/signup', method='post')
+                  div.input-group
+                      span.input-group-addon
+                          span.glyphicon.glyphicon-user
+                      input.name(id="userName" type="text" class='form-control' name='name' placeholder="Please enter a user name")
+                  br
+                  div.input-group
+                      span.input-group-addon
+                          span.glyphicon.glyphicon-lock
+                      input.password(id="passwd" type="password" class='form-control' name='password' placeholder="Please enter a password")
+                  br
+                  div.input-group
+                      span.input-group-addon
+                          span.glyphicon.glyphicon-lock
+                      input.password(id="passwdRe" type="password" class='form-control' name='re-password' placeholder="Please re-enter password to confirm")
+                  br
+                  button(type="submit" class="btn btn-info" id="signupBtn")
+                    Strong Signup
+
+        br
+        div.row.text-center.col-sm-6.col-sm-offset-3
+            p Goback to login page?
+                a(href='/')
+                    Strong  Click here

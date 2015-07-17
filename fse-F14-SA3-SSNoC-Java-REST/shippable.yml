@@ -1,0 +1,16 @@
+build_environment: ubuntu1204
+language: java
+jdk: oraclejdk7
+
+before_install: mvn clean
+after_success:
+   - mvn clean cobertura:cobertura
+   - mvn test
+   - mvn verify
+notifications:
+   email:
+      - qihaobao@cmu.edu
+      - vignan.uppugandla@west.cmu.edu
+      - hao.ni@sv.cmu.edu 
+      - siva.sankaralingam@west.cmu.edu 
+      - tien.jen.chang@west.cmu.edu 

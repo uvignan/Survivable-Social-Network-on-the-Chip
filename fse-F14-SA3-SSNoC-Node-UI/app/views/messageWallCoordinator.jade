@@ -1,0 +1,48 @@
+//
+   Created by Vignan on 10/15/2014.
+doctype html
+html
+    head
+        include includes/head.jade
+        script(src='/js/jquery-1.9.1.min.js')
+        script(src='/js/jquery.watermarkinput.js')
+        script(src='/js/jquery.cookie.js')
+        script(src='/js/messageWall.js')
+        title SSNoC - Public Wall
+    body
+        include includes/navbarCoor.jade
+        div.container
+            br
+            h3.text-center
+                | Welcome to Public Wall
+            br
+        div.container
+            div.well#messageWall
+        div.container
+            div.well#postMessage
+                div.message
+                    form(id="messageform",action='/sendWallMessage',method='post')
+                        div.input-group
+                            span.input-group-addon
+                                span.glyphicon.glyphicon-comment
+                            input.message.form-control(id="wallMessage" type="text" class='form-control' name='message' placeholder = "Anything to Say?")
+                            span.input-group-btn
+                                button.btn.btn-primary(type="submit",id="sendWallMessageButton")
+                                    Strong Send
+                            div.input-group#highway
+                    br
+                    form(method='post', enctype='multipart/form-data', action='/file-upload')
+                        div.input-group.col-sm-5
+                            span.input-group-addon
+                                span.glyphicon.glyphicon-camera
+                            input.message.form-control(id="imageMessage" type="text" class='form-control' name='imagemessage' placeholder = "Any Description?")
+                            br
+                            input.btn.btn-info.form-control(type='file', name='thumbnail')
+                            input.btn.btn-success.form-control(type='submit')
+                            div.input-group#hackway
+        br
+        br
+        div.row.text-center.col-sm-6.col-sm-offset-3
+            p Need to go back to directory?
+                a(href='/people')
+                    Strong  Return

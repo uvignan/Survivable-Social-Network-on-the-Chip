@@ -1,0 +1,299 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"al",
+				"alert"
+			],
+			[
+				"btn-",
+				"btn-warning"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/views/people.jade",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/public/js/people.js",
+		"/home/nh/Downloads/test3.py",
+		"/etc/tor/torrc",
+		"/home/nh/Downloads/Tor_ip_list_EXIT.csv",
+		"/home/nh/Downloads/test1.py",
+		"/home/nh/Downloads/test2.py",
+		"/home/nh/Downloads/countrySet2.txt",
+		"/home/nh/Downloads/countrySet2",
+		"/home/nh/Downloads/CountrySet",
+		"/home/nh/Downloads/output",
+		"/home/nh/Downloads/pycountry-1.10/setup.py",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/routes.js",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/controllers/announcementsC.js",
+		"/home/nh/Downloads/test.py",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/routes.js~",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/views/includes/navbar.jade",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/server.js",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/controllers/search.js",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/socket.js",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/public/js/search.js",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/models/searchRest.js",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/controllers/people.js",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/views/Search.jade",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/public/css/util.css",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/config/rest_api.js",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/models/announcementsRest.js",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/models/performanceMonitorRest.js",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/models/UserRest.js",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/controllers/user.js",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/views/PerformanceMeasure.jade",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/public/js/measureMemory.js",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/public/js/signup.js",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/public/js/measurePerformance.js",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/controllers/performance.js",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/controllers/Memory.js",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/models/MemoryMonitorRest.js",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/shippable.yml",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/node_modules/socket.io/lib/transport.js",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/config/passport.js",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/controllers/messageWallC.js",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/models/MessageWallRest.js",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/views/performanceMeasure.jade",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/views/MemoryMeasureResults.jade",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/views/welcome.jade",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/views/memoryMeasure.jade",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/views/messageWall.jade",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/public/js/messageWall.js",
+		"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/app/views/MemoryMeasure.jade",
+		"/home/nh/Test/fse-F14-SA3-SSNoC-Node-UI/public/js/people.js",
+		"/home/nh/Test/fse-F14-SA3-SSNoC-Node-UI/app/socket.js",
+		"/home/nh/Test/fse-F14-SA3-SSNoC-Node-UI/app/models/UserRest.js",
+		"/home/nh/Test/fse-F14-SA3-SSNoC-Node-UI/server.js",
+		"/home/nh/Test/fse-F14-SA3-SSNoC-Node-UI/app/controllers/user.js",
+		"/home/nh/Test/nh_test3.h",
+		"/home/nh/Test/nh_test.c",
+		"/home/nh/Downloads/evilize-0.2/crib.h",
+		"/home/nh/Downloads/evilize-0.2/init.txt",
+		"/home/nh/Downloads/evilize-0.2/evilize.c",
+		"/home/nh/Downloads/evilize-0.2/goodevil.c",
+		"/home/nh/gitRepos/SSNoC-Node-UI/server.js",
+		"/home/nh/gitRepos/SSNoC-Node-UI/app/routes.js",
+		"/home/nh/gitRepos/SSNoC-Node-UI/public/js/people.js",
+		"/home/nh/gitRepos/SSNoC-Node-UI/config/rest_api.js",
+		"/home/nh/gitRepos/SSNoC-Node-UI/app/views/welcome.jade",
+		"/home/nh/gitRepos/SSNoC-Node-UI/app/socket.js",
+		"/home/nh/gitRepos/SSNoC-Node-UI/app/views/people.jade",
+		"/home/nh/Downloads/20140822_Projects.pdf.pgp",
+		"/home/nh/gitRepos/SSNoC-Node-UI/app/controllers/user.js",
+		"/home/nh/gitRepos/SSNoC-Node-UI/app/models/UserRest.js",
+		"/home/nh/gitRepos/SSNoC-Node-UI/public/js/join.js",
+		"/home/nh/gitRepos/SSNoC-Node-UI/app/views/signup.jade",
+		"/home/nh/gitRepos/SSNoC-Node-UI/public/js/login_signup.js",
+		"/home/nh/gitRepos/SSNoC-Node-UI/config/passport.js",
+		"/home/nh/gitRepos/SSNoC-Node-UI/public/js/signup.js",
+		"/home/nh/gitRepos/SSNoC-Node-UI/nhtest.js",
+		"/home/nh/Test/email_signed.txt.gpg",
+		"/home/nh/Test/nh_test3.c",
+		"/home/nh/Test/nh_test2.c",
+		"/home/nh/Downloads/evilize-0.2/Makefile",
+		"/home/nh/.muttrc",
+		"/home/nh/untitled",
+		"/etc/tomcat7/tomcat-users.xml",
+		"/usr/bin/eclipse",
+		"/home/nh/workspace/Servers/Tomcat v7.0 Server at localhost-config/server.xml",
+		"/home/nh/Test/HelloWorldApp",
+		"/home/nh/repos/pavo/Rakefile"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/",
+			"/home/nh/gitRepos/fse-F14-SA3-SSNoC-Node-UI/public",
+			"/home/nh/gitRepos/SSNoC-Node-UI/"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ExitNodes",
+			"\\s*\\(\\s*",
+			"\\s*(\\s*",
+			"online",
+			"sendOutQuery",
+			"access account accounts add address adm admin administration adult\nadvertising affiliate affiliates ",
+			"ut access account accounts add address adm admin administration adult\nadvertising affiliate affiliates ",
+			"set heartbeat timeout for client",
+			"socket.emit",
+			"disconnect",
+			"stopSign",
+			"online",
+			"getWallMessages",
+			"sendWallMessage",
+			"getPublicWallPage",
+			"messa",
+			"getWelcome",
+			"getWallMessages",
+			"sendButton",
+			"connect",
+			"isAuthenticated",
+			"cons",
+			"evilize",
+			"collisionfile",
+			"optarg",
+			"refreshAllUsers",
+			"getAllUsers",
+			"#status",
+			"updateStatus",
+			"my_status",
+			"statusDate",
+			"my_status",
+			"sessionId",
+			"statusUpdate",
+			"join",
+			"validateUserNameAndPassword",
+			"new User",
+			"routes",
+			"exports",
+			"newUser",
+			"myself",
+			"connect",
+			"“",
+			"”",
+			"context"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			" ( ",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "bootstrap.min.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

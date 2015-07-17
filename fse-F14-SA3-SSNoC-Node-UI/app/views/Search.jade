@@ -1,0 +1,58 @@
+doctype html
+html
+    include includes/head.jade
+    script(src='/js/jquery.cookie.js')
+    script(src='/js/search.js')
+    link(rel='stylesheet', href='/css/util.css')
+    title SSNoC - PerformanceMeasure
+    body
+        include includes/navbar.jade
+        div.container
+            br
+            h3.text-center
+                | Hello!! 
+                br
+                | Welcome to Search
+            br
+        div.container
+            div.row.row-fluid.text-center.col-sm-6.col-sm-offset-3
+                div.input-group
+                    span.input-group-addon.remove-bottom-radius
+                        span.glyphicon.glyphicon-tasks
+                    input.message.col-sm-6.form-control.remove-bottom-radius(id="content" type="text" name='content' placeholder="Please enter the search content here: separate words with space")
+                div.dropdown
+                  button#currentSearchType.btn.btn-default.dropdown-toggle.width-height-full.remove-radius(type='button', data-toggle='dropdown')
+                    | Choose Search Type
+                  ul.dropdown-menu.width-full(role='menu', aria-labelledby='currentSearchType')
+                    li(role='presentation')
+                      a.searchType(role='menuitem', tabindex='-1', href='#' name='Name') User Search By Name
+                    li(role='presentation')
+                      a.searchType(role='menuitem', tabindex='-1', href='#' name='Status') User Search By Status
+                    li(role='presentation')
+                      a.searchType(role='menuitem', tabindex='-1', href='#' name='Announcement') Public Announcements
+                    li(role='presentation')
+                      a.searchType(role='menuitem', tabindex='-1', href='#' name='Public') Public Messages
+                    li(role='presentation')
+                      a.searchType(role='menuitem', tabindex='-1', href='#' name='Private') Private Messages  
+
+                button#searchButton.btn.btn-default.btn-success.width-height-full.remove-top-radius(type='button')
+                    | Search
+
+            br
+            br
+            div.row.row-fluid.text-center.col-sm-6.col-sm-offset-3
+                div.alert.alert-info#alert
+                    | Nothing to show
+            br
+            div.join1
+            br
+            br
+
+        div#moreOption.row.text-center.col-sm-6.col-sm-offset-3
+            p Want to see more results?
+                a(href='' onclick='return false')
+                    Strong  More
+        div.row.text-center.col-sm-6.col-sm-offset-3
+            p Need to go back to directory?
+                a(href='/people')
+                    Strong  Return

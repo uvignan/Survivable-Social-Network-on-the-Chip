@@ -1,0 +1,26 @@
+# Build Environment
+build_environment: Ubuntu 12.04
+
+# language setting
+language: node_js
+
+# version numbers, testing against two versions of node
+node_js:
+  - 0.10.32
+
+
+# npm install runs by default but shown here for illustrative purposes
+before_install:
+ - npm install express
+ - npm install supervisor
+
+# Running npm test to run your test cases
+script:
+ - npm install
+
+
+notifications:
+   email:
+      - Qihao.bao@west.cmu.edu
+      - vignan.uppugandla@west.cmu.edu
+      - lucifer_john@yeah.net
